@@ -1,0 +1,19 @@
+@mixin breakpoint($point) {
+  @if $point == max-mob {
+    @media (max-width: 479px) {
+      @content;
+    }
+  } @else if $point == max-tabl {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else if $point == max-sm-desc {
+    @media (max-width: 990px) {
+      @content;
+    }
+  } @else if $point == max-desc {
+    @media (max-width: 1160px) {
+      @content;
+    }
+  }
+}

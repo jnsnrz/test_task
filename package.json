@@ -1,0 +1,22 @@
+{
+  "name": "test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "jnsnrz",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "node-normalize-scss": "^8.0.0"
+  },
+  "dependencies": {
+    "gulp-uglifycss": "^1.1.0"
+  }
+}
